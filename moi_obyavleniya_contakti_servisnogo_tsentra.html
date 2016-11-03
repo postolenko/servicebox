@@ -1,0 +1,790 @@
+<!DOCTYPE html>
+
+<html lang="ru">
+
+<head>
+
+	<meta charset="utf-8">
+
+	<meta http-equiv="X-UA-Compatible" content="IE=edge" >
+
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+	<meta name="description" content="">
+
+	<link rel="stylesheet" type="text/css" href="vendors/css/animate.css">
+	
+	<link rel="stylesheet" type="text/css" href="style.css">
+
+	<link rel="stylesheet" type="text/css" href="font-awesome.css">
+
+	<link rel="stylesheet" type="text/css" href="responsive.css">
+
+	<link rel="stylesheet" type="text/css" href="slick/slick.css">
+
+	<link rel="stylesheet" href="vendors/css/jquery.mCustomScrollbar.css" />
+
+	<link href="vendors/css/select2.css" rel="stylesheet" />
+
+	<script type="text/javascript" src="vendors/js/jquery.js"></script>
+
+	<script src="vendors/js/jquery.mCustomScrollbar.concat.min.js"></script>
+
+	<script src="vendors/js/select2.js"></script>
+
+	<script type="text/javascript" src="slick/slick.js"></script>
+
+
+	<script type="text/javascript" src="vendors/js/wow.min.js"></script>
+	<script>new WOW().init();</script>
+
+
+	<link rel="icon" type="image/png" href="favicon/favicon.ico" sizes="16x16">
+
+	
+	<title>Service Box</title>
+	
+
+</head>
+
+<body>
+
+<div class="wrapper">
+
+	<div class="popup-sect sect-popup-1">
+		
+		<div class="popup-bg"></div>
+
+		<div class="popup-box">
+
+			<form class="popup-form">
+			
+				<div class="h2-gradient">
+					
+					<h2>Заявка на редактирование адреса</h2>
+
+					<button type="button" class="close-popup"><i class="fa fa-times" aria-hidden="true"></i></button>
+
+				</div>
+
+				<div class="popup-content">
+					
+					<div class="popup-row">
+						
+						<h3>Новый адрес</h3>
+
+						<div class="textarea-box">
+							
+							<textarea placeholder="Новый адрес"></textarea>
+
+						</div>
+
+					</div>
+
+					<div class="popup-row">
+						
+						<h3>Причина изменения</h3>
+
+						<div class="textarea-box">
+							
+							<textarea placeholder="Причина изменения"></textarea>
+
+						</div>
+
+					</div>
+
+				</div>
+
+				<div class="submit-box">
+					
+					<button type="button" class="blue-btn">Закрыть</button>
+
+					<button type="button" class="blue-btn">Отправить</button>
+
+				</div>
+
+			</form>
+
+		</div>
+
+	</div>
+
+
+	<!-- Header -->
+
+	<header>
+
+		<div class="header">
+			
+			<div class="top-header-row">
+				
+				<div class="row offset-ziro">
+
+					<div class="main-nav-block left-col">
+
+						<button type="button" class="close-resp-nav-btn">&#215;</button>
+						
+						<nav>
+							
+							<ul class="main-nav-list">
+								
+								<li><a href="#">Сервисные центры и мастера</a></li>
+								<li><a href="#">Вопросы и ответы</a></li>
+								<li><a href="#">Заявки на ремонт</a></li>
+								<li><a href="#">Статьи</a></li>
+								<li><a href="#">Новости</a></li>
+
+							</ul>
+
+						</nav>
+
+					</div>
+
+					<div class="right-col clearfix">
+
+						<button type="button" class="resp-nav-btn"><i class="fa fa-bars" aria-hidden="true"></i></button>
+						
+						<div class="search-box">
+
+							<button class="search-btn"><img src="img/search_icon.svg" alt="Поиск"></button>
+
+						</div>
+
+						<div class="favorite-box">
+
+							<a href="#" class="favorite-link"><i class="fa fa-heart" aria-hidden="true"></i>Добавить</a>
+
+						</div>
+
+						
+						<div class="enter-box">
+
+							<a href="#" class="enter-link"><i class="fa fa-user" aria-hidden="true"></i>Войти</a>
+
+						</div>
+
+						<!-- <div class="enter-box entered">
+
+							<div class="avatar-box">
+								
+								<img src="img/user_photo.jpg" alt="">
+
+							</div>
+
+							<a href="#" class="show-account-menu"><i class="fa fa-sort-desc" aria-hidden="true"></i></a>
+
+						</div> -->
+
+					</div>
+
+
+				</div>
+
+			</div>
+
+			<div class="logo-row row">
+				
+				<a href="#">Logo</a>
+
+			</div>
+
+		</div>
+
+								
+	</header>
+
+	<!-- /Header -->
+
+		<!-- Content -->
+			<div class="content">
+
+				<section>
+					
+					<div class="row">
+						
+						<div class="breacrumbs">
+							
+							<ul class="breacrumbs-list">
+								
+								<li><a href="#">Ремонт и сервис</a></li>
+								<li><a href="#">Москва</a></li>
+
+							</ul>
+
+						</div>
+
+					</div>
+
+				</section>
+
+				<section>
+					
+					<div class="with-sidebar-section row clearfix">
+
+						<button class="show-sidebar-btn"><i class="fa fa-arrow-right" aria-hidden="true"></i></button>
+						
+						<h2>Мои объявления</h2>
+
+						<div class="sidebar left width-18">
+
+							<div class="aside-wrapp with-scroll">
+
+								<aside>
+
+									<div class="sidebar-nav">
+
+										<nav>
+											
+											<ul class="sidebar-nav-list">
+												
+												<li><a href="#">Мой профиль</a></li>
+												<li><a class="active" href="#">Мои объявления</a></li>
+												<li><a href="#">Вопросы по объявлениям</a></li>
+												<li><a href="#">Мои вопросы</a></li>
+												<li><a href="#">Вопросы по объявлениям</a></li>
+												<li><a href="#">Мои заявки</a></li>
+												<li><a href="#">Сообщения</a></li>
+
+											</ul>
+
+										</nav>
+
+									</div>						
+
+								</aside>
+
+							</div>
+
+						</div>
+
+						<div class="main-content profile right width-82">
+
+							<div class="contacts-sc-links-box">
+
+								<ul class="contacts-sc-links offset-ziro">
+									
+									<li><a class="active" href="">Контакты сервисного центра</a></li>
+									<li><a href="">Категории и производители</a></li>
+									<li><a href="">Дополнительные услуги и настройки</a></li>
+
+								</ul>
+
+							</div>
+
+							<div class="contacts-sc-form">
+								
+								<form>
+
+									<div class="inputs">
+														
+										<div class="input-box offset-ziro">
+											
+											<label>Название:</label>
+											<input type="text" placeholder="Аарон. Выездной сервис в Нижневартовске" >	
+
+										</div>
+
+										<div class="input-box offset-ziro">
+											
+											<label>Название на латинице (URL):</label>
+											<input type="text" placeholder="abrikos-nbartosk" >	
+
+										</div>
+
+										<div class="input-box offset-ziro">
+
+											<label>Город</label>
+											
+											<select>
+												
+												<option>Нижневартовск</option>
+												<option>Город 1</option>
+												<option>Город 2</option>
+												<option>Город 3</option>
+												<option>Город 4</option>
+												<option>Город 5</option>
+
+											</select>
+
+										</div>
+
+										<div>
+
+											<div class="input-box offset-ziro with-orange-btn">
+												
+												<label>Адрес:</label>
+												<input type="text" placeholder="Нижневартовск, ул., д.9 (ТЦ Огни)" >
+
+												<div class="orange-btn-box">
+													
+													<button type="button" class="orange-btn fadeIn-popup" id="popup-1">Изменить адрес</button>
+
+												</div>
+
+											</div>
+
+										</div>
+
+									</div>
+
+									<div class="map-box">
+										
+										<div id="map"></div>
+										
+									</div>
+
+
+									<!-- <div class="map-box">
+
+										<div id="map"></div>
+
+									</div> -->
+
+
+									<div class="inputs inputs-2">
+														
+										<div class="input-box offset-ziro">
+
+											<label>Выезд в города:</label>
+											
+											<select>
+												
+												<option>Город 1</option>
+												<option>Город 2</option>
+												<option>Город 3</option>
+												<option>Город 4</option>
+												<option>Город 5</option>
+
+											</select>
+
+										</div>
+
+										<div class="checkbox-box">
+
+											<input type="checkbox" name="checkbox" id="checkbox1">
+											<label for="checkbox1">Нижневартовск</label>
+
+										</div>
+
+										<div class="checkbox-box">
+
+											<input type="checkbox" name="checkbox" id="checkbox2">
+											<label for="checkbox2">Излучинск</label>
+
+										</div>
+
+									</div>
+
+									<div class="input-box input-middle-width">
+											
+										<label>Телефон #1:</label>
+										<input type="text" placeholder="+7 (0000) 000-000">
+
+										<a class="account-blue-link"><i class="fa fa-plus" aria-hidden="true"></i>Добавить еще один № телефона</a>
+
+									</div>
+
+									<div class="input-box input-middle-width">
+											
+										<label>Телефон #2:</label>
+										<input type="text" placeholder="+7 (0000) 000-000" >
+
+										<!-- <a class="account-blue-link"><i class="fa fa-plus" aria-hidden="true"></i>Добавить еще один № телефона</a> -->
+
+									</div>
+
+									<div class="input-box input-middle-width">
+											
+										<label>Веб-сайт:</label>
+										<input type="text" placeholder="http://www.servicebox.ru" >
+
+										<!-- <a class="account-blue-link"><i class="fa fa-plus" aria-hidden="true"></i>Добавить еще один № телефона</a> -->
+
+									</div>
+
+									<div class="input-box input-middle-width">
+											
+										<label>Е-mail:</label>
+										<input type="email" placeholder="test@servicebox.ru" >
+
+										<!-- <a class="account-blue-link"><i class="fa fa-plus" aria-hidden="true"></i>Добавить еще один № телефона</a> -->
+										<div class="help-box">
+
+											<p>Публикуется на сайте с использованием технологий защиты от спама (недоступен для спам-роботов).</p>
+
+										</div>
+
+									</div>
+
+									<div class="input-box textarea-box">
+											
+										<label>Описание:</label>
+										<!-- <input type="email" placeholder="test@servicebox.ru" > -->
+										<textarea placeholder="Качественный сервис по приемлемым ценам. Гарантия до 1 года. Выезд по городу бесплатны"></textarea>
+
+										<!-- <a class="account-blue-link"><i class="fa fa-plus" aria-hidden="true"></i>Добавить еще один № телефона</a> -->
+
+									</div>
+
+
+									<div class="choose-time offset-ziro">
+
+										<div class="choose-time-col-1">
+											
+											<label>Время работы:</label>
+
+										</div>
+
+										<div class="choose-time-col-2">
+											
+											<div class="choose-time-row offset-ziro">
+												
+												<div class="col col-1">
+													
+													<p>Будни (пн.-пт.):</p>
+
+												</div>
+
+												<div class="col col-2">
+													
+													<select>
+													
+														<option>01</option>
+														<option>02</option>
+														<option>03</option>
+														<option>04</option>
+														<option>05</option>
+
+													</select>
+
+													<p>:</p>
+
+													<select>
+													
+														<option>01</option>
+														<option>02</option>
+														<option>03</option>
+														<option>04</option>
+														<option>05</option>
+
+													</select>
+
+												</div>
+
+												<div class="col col-3">
+
+													<p>до</p>
+
+												</div>
+
+												<div class="col col-4">
+
+													<select>
+													
+														<option>01</option>
+														<option>02</option>
+														<option>03</option>
+														<option>04</option>
+														<option>05</option>
+
+													</select>
+
+													<p>:</p>
+
+													<select>
+													
+														<option>01</option>
+														<option>02</option>
+														<option>03</option>
+														<option>04</option>
+														<option>05</option>
+
+													</select>
+
+												</div>
+
+												<div class="col col-5"></div>
+
+											</div>
+
+											<div class="choose-time-row offset-ziro">
+												
+												<div class="col col-1">
+													
+													<div class="checkbox-box">
+
+														<input type="checkbox" name="checkbox" id="checkbox3">
+														<label for="checkbox3">Выходные</label>
+
+													</div>
+
+												</div>
+
+												<div class="col col-2">
+													
+													<select>
+													
+														<option>01</option>
+														<option>02</option>
+														<option>03</option>
+														<option>04</option>
+														<option>05</option>
+
+													</select>
+
+													<p>:</p>
+
+													<select>
+													
+														<option>01</option>
+														<option>02</option>
+														<option>03</option>
+														<option>04</option>
+														<option>05</option>
+
+													</select>
+
+												</div>
+
+												<div class="col col-3">
+
+													<p>до</p>
+
+												</div>
+
+												<div class="col col-4">
+
+													<select>
+													
+														<option>01</option>
+														<option>02</option>
+														<option>03</option>
+														<option>04</option>
+														<option>05</option>
+
+													</select>
+
+													<p>:</p>
+
+													<select>
+													
+														<option>01</option>
+														<option>02</option>
+														<option>03</option>
+														<option>04</option>
+														<option>05</option>
+
+													</select>
+
+												</div>
+
+												<div class="col col-5">
+													
+													<div class="checkbox-box">
+
+														<input type="checkbox" name="checkbox" id="checkbox4">
+														<label for="checkbox4">Сб.</label>
+
+													</div>
+
+													<div class="checkbox-box">
+
+														<input type="checkbox" name="checkbox" id="checkbox5">
+														<label for="checkbox5">Вс.</label>
+
+													</div>
+
+												</div>
+
+											</div>
+
+										</div>
+
+									</div>
+
+									<div class="input-box textarea-box">
+											
+										<label>Дополнительные сведения о графике работы:</label>
+
+										<textarea placeholder="Качественный сервис по приемлемым ценам. Гарантия до 1 года. Выезд по городу бесплатны"></textarea>
+
+									</div>
+
+
+									<div class="clearfix">
+													
+										<button type="button" class="orange-btn right">Сохранить изменения</button>
+
+									</div>	
+
+
+								</form>
+
+							</div>
+
+
+
+						</div>
+
+					</div>
+
+				</section>
+
+
+			</div>
+		<!-- /Content -->
+
+		<!-- Footer -->
+
+		<footer>
+			
+			<div class="footer">
+				
+				<div class="footer-row-1">
+					
+					<div class="row offset-ziro">
+
+						<div class="footer-col footer-col-1">
+
+							<h3>Проект</h3>
+							
+							<ul class="style-list-none">
+
+								
+								<li><a href="#">Главная</a></li>
+								<li><a href="#">Новости</a></li>
+								<li><a href="#">Обратная связь</a></li>
+								<li><a href="#">Пользовательское соглашение</a></li>
+								<li><a href="#">Оказание возмездных услуг</a></li>
+
+							</ul>
+
+						</div>
+
+
+						<div class="footer-col footer-col-2">
+
+							<h3>Каталог сервисов и мастеров</h3>
+							
+							<ul class="style-list-none">						
+
+								<li><a href="#">Аккаунт</a><p class="checked-mark"><i class="checked_icon"></i>Проверен</p></li>
+								<li><a href="#">Добавить сервис/частного мастера</a></li>
+								<li><a href="#">Рейтинги</a></li>
+								<li><a href="#">Модерация</a></li>
+								<li><a href="#">Продвижение объявления</a></li>
+								<li><a href="#">Реклама на сайте</a></li>
+
+							</ul>
+
+						</div>
+
+						<div class="footer-col footer-col-3">
+
+							<h3>Вопросы и ответы</h3>
+							
+							<ul class="style-list-none">						
+
+								<li><a href="#">Вопросы и ответы, проблемы и решения</a></li>
+								<li><a href="#">Задать вопрос мастерам</a></li>
+
+							</ul>
+
+							<ul class="soc-nets-list">
+								
+								<li><a href="#"><img src="img/vkontakte.svg" alt="Мы в Вконтакте"></a></li>
+								<li><a href="#"><img src="img/facebook.svg" alt="Мы в Facebook"></a></li>
+								<li><a href="#"><img src="img/google-plus.svg" alt="Google Plus"></a></li>
+
+							</ul>
+
+							<div class='payment-system webmoney'>
+								
+								<img src="img/webmoney_1.jpg" alt="WebMoney">
+
+								<img src="img/webmoney_2.jpg" alt="WebMoney">
+
+								<a class="payment-system-link">Проверить атестат</a>
+
+							</div>
+
+						</div>
+
+
+
+					</div>
+
+				</div>
+
+				<div class="footer-row-2">
+					
+					<div class="row">
+
+						<p>&copy; 2016 <a href="#">service.ru</a> каталог сервисных центров</p>
+
+					</div>
+
+				</div>
+
+			</div>
+
+		</footer>
+
+		<!-- /Footer -->
+
+		<script src="js/scripts.js"></script>
+
+		<script src="js/map.js"></script>
+		<script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBoGWEyUlxHOSfMgm2TliQLggP3mej7d_I&callback=initMap"></script>
+
+		<script>
+
+			$(".slider-questions").slick({
+				  infinite: true,
+				  slidesToShow: 3,
+				  slidesToScroll: 2,
+				  autoplay: true,
+				  autoplaySpeed: 7000,
+				  centerMode: true,  			  
+	  			  responsive: [
+	  			  	{
+				      breakpoint: 768,
+				      settings: {
+				        slidesToShow: 2
+				      }
+				    },
+				    {
+				      breakpoint: 480,
+				      settings: {
+				        slidesToShow: 1
+				      }
+				    }
+				  ]
+				});
+
+			(function($){
+
+				$(window).on("load",function(){
+
+				    $(".main-nav-list").mCustomScrollbar();
+
+				    $(".aside-wrapp.with-scroll").mCustomScrollbar();
+
+				     $(".with-gorisontal-scroll").mCustomScrollbar({
+				    	
+				    	axis:"x"
+				    	
+				    });
+
+				});
+
+			})(jQuery);
+
+			$("select").select2();
+
+		</script>
+	
+	</div>
+
+</body>
+</html>
