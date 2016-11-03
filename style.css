@@ -725,7 +725,8 @@ p.quote:before {
 .main-nav-block {
     display: inline-block;
     vertical-align: middle;
-    z-index: 2;
+    position: relative;
+    z-index: 30;
 }
 
 .main-nav-list {
