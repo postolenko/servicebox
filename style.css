@@ -668,6 +668,8 @@ p.quote:before {
 
 .header {
     background: rgba(255, 255, 255, 1);
+    position: relative;
+    z-index: 50;
 }
 
 .top-header-row {
