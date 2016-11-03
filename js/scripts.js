@@ -1,19 +1,35 @@
 $(document).ready(function() {
 
-    //   preload
-    // $(window).on('load', function () {
-
-    //     setTimeout(function() {
-
-    //         $(".preload-bg").fadeOut(500);
-
-    //     }, 700);
-  
-
-    // });
 
     var radiboxTabLenght = $(".choose-type-box").length - 1;
     var radiboxTabFor = 0;
+
+    // -----------------------------------------------------
+
+    var countItemsTabMenuFor;
+    var countItemsTabMenu = $(".tab_link").length - 1;
+    var dataAttrTab;
+
+    // -----------------------------------------------------
+
+    var indexFadeBox;
+
+    // -----------------------------------------------------
+
+    var indexAccordeonLink;
+    var tipHeight;
+
+    // -----------------------------------------------------
+
+    var indexCh;
+    var indexCloseTableRow;
+
+    // -----------------------------------------------------
+
+    var closePopupBtnIndex;
+    var popupIdAttr;
+
+    // -----------------------------------------------------
 
 
     $(window).resize(function() {
@@ -22,8 +38,6 @@ $(document).ready(function() {
         $(".wrapper").css({"min-height" : $(window).height() + "px"});
 
         $(".wrapper").css({"padding-bottom" :  $(".footer").outerHeight(true) + "px"});
-
-        getRadiboxTabHeight();
 
         getPopupPosition();
 
@@ -38,23 +52,20 @@ $(document).ready(function() {
 
     });
 
-
-    getRadiboxTabHeight();
-
     getPopupPosition();
 
 
- // ---------------------------------------------------------
+// ---------------------------------------------------------
 
 //  Для Табов
 // Определние активного таба при загрузке страницы
 
 $(function() {
 
-    var countItemsTabMenuFor;
-    var countItemsTabMenu = $(".tab_link").length - 1;
+    // var countItemsTabMenuFor;
+    // var countItemsTabMenu = $(".tab_link").length - 1;
 
-    var dataAttrTab;
+    // var dataAttrTab;
 
     for (countItemsTabMenuFor = 0; countItemsTabMenuFor <= countItemsTabMenu; countItemsTabMenuFor++) {
 
@@ -135,7 +146,7 @@ $(function() {
 
 // ---------------------------------------------------------
 
-    var indexFadeBox;
+    // var indexFadeBox;
 
     $(function() {
 
@@ -154,9 +165,9 @@ $(function() {
 
     $(function() {
 
-        var indexAccordeonLink;
+        // var indexAccordeonLink;
 
-        var tipHeight;
+        // var tipHeight;
 
         $(".accordeon li a + .tip-box-wrapp").addClass("hover");
 
@@ -222,7 +233,7 @@ $(function() {
 
     $(function() {
 
-        var indexCh;
+        // var indexCh;
 
         $(".table-manufacturer-row .checkbox-box input[type=checkbox]").click(function() {
 
@@ -237,7 +248,7 @@ $(function() {
 
     $(function() {
 
-        var indexCloseTableRow;
+        // var indexCloseTableRow;
 
         $(".table-manufacturer-row .close-fade-row-btn").click(function() {
 
@@ -253,8 +264,8 @@ $(function() {
 
 // ---------------------------------------------------------
 
-    var closePopupBtnIndex;
-    var popupIdAttr;
+    // var closePopupBtnIndex;
+    // var popupIdAttr;
 
     $(".popup-bg, .close-popup").click(function() {
 
@@ -280,26 +291,6 @@ $(function() {
 function getPopupPosition() {
 
     $(".popup-box").css({"top" : ( $(window).height() - $(".popup-box").height() ) / 2 + "px"});
-
-}
-
-    
-// ---------------------------------------------------------
-
-function getRadiboxTabHeight() {
-
-    // radiboxTabLenght = $(".choose-type-box").length - 1;
-    // radiboxTabFor = 0;
-
-    // setTimeout(function() {
-
-    //     for( radiboxTabFor = 0; radiboxTabFor <= radiboxTabLenght; radiboxTabFor++ ) {
-
-    //         $(".choose-type-box .choose-type:eq("+ radiboxTabFor +") label").outerHeight( $(".choose-type-box .choose-type:eq("+ radiboxTabFor +")").height() );
-
-    //     }
-
-    // }, 1000);
 
 }
 
