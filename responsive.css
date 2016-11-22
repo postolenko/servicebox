@@ -706,6 +706,42 @@
 		top: 3px;
 	}
 
+	.category-box.grid-item {
+	    display: block;
+	    width: 48%;
+	}
+
+
+	/* -- Registration -- */
+
+	.registration h2 {
+		padding: 0 0 10px 0;
+	}
+
+	.registration-box .input-box label {
+		width: 100%;
+		padding: 0 0 5px 0;
+		text-align: left;
+	}
+
+	.registration-box .input-box input {
+		width: 100%;
+	}
+
+	.registration-box .input-row {
+		padding: 10px 0;
+	}
+
+	.registration-box .checkbox-box {
+		padding: 15px 0 0 0;
+	}
+
+	.registration-box .input-box p {
+		padding: 5px 0 0 0;
+	}
+
+	/* -- /Registration -- */
+
 	.footer-row-1 .footer-col {
 		width: 50%;
 	}
@@ -873,6 +909,10 @@
 
 	.account-table {
 		min-width: 476px;
+	}
+
+	.account-table.applications-table.two-cols {
+		min-width: auto !important;
 	}
 
 	.questions-links-list li {
@@ -1078,6 +1118,49 @@
 		width: 200px;
 		margin: 5px 5px 5px 0;
 		padding: 7px 5px;
+	}
+
+	.category-box.grid-item {
+		display: block;
+		width: 100%;
+	}
+
+	.applications-table.two-cols .table-cell {
+		width: 100%;
+	}
+
+	.applications-table.two-cols .table-cell h3 {
+		padding: 5px 0;
+	}
+
+	.applications-table.two-cols .table-cell .orange-btn {
+		margin: 5px 0;
+	}
+
+	.applications-table.two-cols .table-cell-2 {
+		text-align: left;
+	}
+
+	.applications-sort {
+		width: 100%;
+		padding: 5px 0;
+	}
+
+	.application-thumb-row .application-thumb-cell {
+		width: 100%;
+		text-align: left;
+	}
+
+	.application-thumb-row .application-thumb-cell p {
+		display: inline-block;
+		vertical-align: top;
+		padding: 5px 15px 0 0;
+	}
+
+	.h2-gradient.applications-h .page-num {
+		text-align: left;
+		width: 100%;
+		padding: 5px 0;
 	}
 
 	.footer-row-1 .footer-col {

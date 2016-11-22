@@ -455,6 +455,10 @@ textarea {
     font-weight: 600;
 }
 
+.bold-txt {
+    font-weight: bold;
+}
+
 .blue-txt {
     color: #0088cc;
 }
@@ -6161,6 +6165,396 @@ p.quote:before {
     font-weight: 600;
     color: #bb5b6b;
 }
+
+
+
+/* ----- Registration ------ */
+
+.registration h2 {
+    font-family: "Myriad Pro", Arial, Verdana, sans-serif;
+    font-size: 24px;
+    line-height: 29px;
+    font-weight: normal;
+    color: #171717;
+    padding: 0 0 10px 0;
+}
+
+.registration-box .input-box label {
+    display: inline-block;
+    vertical-align: middle;
+    width: 13%;
+    margin: 0 2% 0 0;
+}
+
+.registration-box .input-box input {
+    display: inline-block;
+    vertical-align: middle;
+    width: 50%;
+}
+
+.registration-box .input-box p {
+    font-family: "Myriad Pro", Arial, Verdana, sans-serif;
+    font-size: 16px;
+    line-height: 18px;
+    font-weight: normal;
+    color: #7b7b7b;
+    padding: 3px 0 0 15%;
+}
+
+.registration-box .checkbox-box {
+    padding: 15px 0 0 15%;
+}
+
+.registration-btn {
+    display: block;
+    min-width: 130px;
+    cursor: pointer;
+    margin: 17px 0;
+    padding: 7px 7px;
+    background: rgba(94, 201, 216, 1);
+    border: 1px solid transparent;
+    font-family: "Myriad Pro", Arial, Verdana, sans-serif;
+    font-size: 18px;
+    line-height: 18px;
+    font-weight: 400;
+    color: #ffffff;
+    text-align: center;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    -ms-border-radius: 4px;
+    -o-border-radius: 4px;
+    border-radius: 4px;
+}
+
+.registration-btn:link,
+.registration-btn:visited {
+    background: rgba(94, 201, 216, 1);
+}
+
+.registration-btn.active,
+.registration-btn:active {
+    background: rgba(86, 187, 202, 1);
+}
+
+.registration-btn:hover {
+    background: rgba(86, 187, 202, 1);
+}
+
+
+/* ----- /Registration ------ */
+
+/* ----- Zayavki ------ */
+
+.applications-table {
+
+}
+
+.applications-table .account-table-header .table-cell-2 {
+    text-align: right;
+}
+
+.applications-table .account-table-header {
+    padding: 5px 10px;
+}
+
+.applications-table .applications-table-row {
+    padding: 10px 0;
+    border-bottom: 1px solid #dfdfdf;
+}
+
+.applications-table.two-cols {
+
+}
+
+.applications-table.two-cols .table-cell-1 {
+    width: 55%;
+}
+
+.applications-table.two-cols .table-cell-2 {
+    width: 45%;
+}
+
+
+.applications-table .applications-table-row:last-child {
+    border-bottom: none;
+}
+
+.applications-table .account-table-header h3 {
+    font-family: "Myriad Pro", Arial, Verdana, sans-serif;
+    font-size: 20px;
+    line-height: 22px;
+    font-weight: normal;
+    color: #171717;
+    padding: 0;
+}
+
+.category-links-list li:before {
+    display: none;
+}
+
+.category-links-list li a {
+    display: inline-block;
+    vertical-align: top;
+    font-family: "Myriad Pro", Arial, Verdana, sans-serif;
+    font-size: 16px;
+    line-height: 22px;
+    font-weight: normal;
+    color: #0088cc;
+    text-decoration: none;
+    margin: 0 0 5px 0;
+}
+
+.category-links-list li a:link,
+.category-links-list li a:visited {
+    text-decoration: none;
+}
+
+.category-links-list li a.active
+.category-links-list li a:active {
+    text-decoration: underline;
+}
+
+.category-links-list li a:hover {
+    text-decoration: underline;
+}
+
+.category-box.grid-item {
+    display: block;
+    width: 24%;
+    padding: 0 1%;
+}
+
+.applications-table button.orange-btn {
+    display: inline-block;
+    vertical-align: middle;
+    width: auto;
+    font-size: 20px;
+    line-height: 32px;
+    padding: 3px 20px 7px 20px;
+}
+
+.applications-table button.orange-btn:hover,
+.applications-table button.orange-btn:active {
+    background: rgba(249, 149, 34, 1);
+}
+
+.applications-table .table-cell .orange-btn .fa-question-circle-o {
+    padding: 0 4px 0 0;
+}
+
+.h2-gradient.applications-h {
+    padding-bottom: 0; 
+}
+
+.applications-thumbs {
+    border-left: 1px solid #dcdcdc;
+    border-bottom: 1px solid #dcdcdc;
+    border-right: 1px solid #dcdcdc;
+    background-color: #F5F5F5;
+    margin: -4px 0 0 0;
+}
+
+.applications-sort {
+    display: inline-block;
+    vertical-align: middle;
+    width: 65%;
+}
+
+.applications-sort li {
+    display: inline-block;
+    vertical-align: top;
+    padding: 0 4% 0 0;
+}
+
+.applications-sort li:before {
+    display: none;
+}
+
+.applications-sort li .applications-sort-link {
+    display: inline-block;
+    vertical-align: top;
+    font-family: "Myriad Pro", Arial, Verdana, sans-serif;
+    font-size: 16px;
+    line-height: 26px;
+    font-weight: normal;
+    color: #0088cc;
+    padding: 0;
+    text-transform: uppercase;
+    border-bottom: 3px solid transparent;
+}
+
+.applications-sort li .applications-sort-link:link,
+.applications-sort li .applications-sort-link:visted {
+    border-bottom: 3px solid transparent;
+}
+
+.applications-sort li .applications-sort-link.active,
+.applications-sort li .applications-sort-link:active {
+    border-bottom: 3px solid #FFA500;
+}
+
+.applications-sort li .applications-sort-link:hover {
+    border-bottom: 3px solid #FFA500;
+}
+
+.applications-sort li .applications-sort-link .count-sort {
+    color: #999999;
+}
+
+.h2-gradient.applications-h .page-num {
+    display: inline-block;
+    vertical-align: middle;
+    text-align: right;
+    width: 35%;
+}
+
+.applications-thumbs {
+    padding: 1%;
+}
+
+.application-thumb {
+    margin: 10px 0;
+    padding: 5px 1%;
+    background: rgba(255, 255, 255, 1);
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    -ms-border-radius: 4px;
+    -o-border-radius: 4px;
+    border-radius: 4px;
+}
+
+.application-thumb-row {
+    padding: 5px 1%;
+}
+
+.application-thumb-row p {
+    font-family: "Myriad Pro", Arial, Verdana, sans-serif;
+    font-size: 19px;
+    line-height: 22px;
+    font-weight: normal;
+    padding: 5px 0;
+}
+
+.application-thumb-row .application-thumb-cell {
+    display: inline-block;
+    vertical-align: top;
+}
+
+.application-thumb-row .application-thumb-cell-1 {
+    width: 67%;
+}
+
+.application-thumb-row .application-thumb-cell-1 p {
+    display: inline-block;
+    vertical-align: top;
+}
+
+.application-thumb-row .fa {
+    font-size: 18px;
+    color: #888888;
+    padding: 0 5px 0 0;
+}
+
+.application-thumb-row-top .application-thumb-cell .with-tooltip {
+    display: inline-block;
+    vertical-align: top;
+    font-family: "Myriad Pro", Arial, Verdana, sans-serif;
+    font-size: 19px;
+    line-height: 22px;
+    padding: 0 15px 0 0;
+}
+
+.application-thumb-row-top .application-thumb-cell p a {
+    font-family: "Myriad Pro", Arial, Verdana, sans-serif;
+    font-size: 19px;
+    line-height: 22px;
+    font-weight: normal;
+    color: #0088cc;
+}
+
+.application-thumb-row .application-thumb-cell-2 {
+    width: 33%;
+    text-align: right;
+}
+
+.application-thumb-row .application-thumb-cell-2 p {
+    padding: 0;
+}
+
+.application-thumb-cell .with-tooltip {
+    position: relative;
+}
+
+.application-thumb-cell .with-tooltip .tooltip-application {
+/*    display: inline-block;
+    vertical-align: top;*/
+    display: none;
+    width: auto;
+    width: 200px;
+    font-family: "Myriad Pro", Arial, Verdana, sans-serif;
+    font-size: 16px;
+    line-height: 26px;
+    font-weight: normal;
+    color: #ffffff;
+    text-align: center;
+    margin: 0 0 0 -100px;
+    padding: 5px 20px;
+    position: absolute;
+    top: -45px;
+    left: 50%;
+    z-index: 3;
+    background: rgba(0, 0, 0, .9);
+}
+
+.application-thumb-cell .with-tooltip:hover .tooltip-application {
+    display: inline-block;
+    vertical-align: top;
+    position: absolute;
+}
+
+.application-thumb-cell .with-tooltip:hover .tooltip-application:after {
+    display: block;
+    content: "";
+    width: 0;
+    height: 0;
+    position: absolute;
+    bottom: -20px;
+    left: 50%;
+    margin: 0 0 0 -10px;
+    border: 10px solid transparent;
+    border-top: 10px solid rgba(0, 0, 0, .9);
+}
+
+.application-thumb-row.more-link-box {
+    text-align: right;
+}
+
+.application-thumb-row.more-link-box .more-link {
+    font-family: "Myriad Pro", Arial, Verdana, sans-serif;
+    font-size: 16px;
+    line-height: 26px;
+    font-weight: normal;
+    color: #0088cc;
+    text-decoration: none;
+}
+
+.application-thumb-row.more-link-box .more-link:link,
+.application-thumb-row.more-link-box .more-link:visted {
+    text-decoration: none;
+}
+
+.application-thumb-row.more-link-box .more-link.active,
+.application-thumb-row.more-link-box .more-link:active {
+    text-decoration: underline;
+}
+
+.application-thumb-row.more-link-box .more-link:hover {
+    text-decoration: underline;
+}
+
+
+/* ----- /Zayavki ------ */
+
 
 /*-------------------------------------------*/
 /* ----- FOOTER ------ */
